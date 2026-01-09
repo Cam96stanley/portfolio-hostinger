@@ -1,6 +1,6 @@
 export default function HeroLines() {
   return (
-    <div className="relative overflow-hidden w-full h-200">
+    <div className="relative overflow-hidden w-full h-96">
       <svg
         viewBox="0 0 1200 300"
         xmlns="http://www.w3.org/2000/svg"

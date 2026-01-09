@@ -4,7 +4,11 @@ export default function Navbar() {
   return (
     <nav className="p-2 rounded-b-md shadow-md">
       <div className="flex justify-between items-center max-w-5xl mx-auto">
-        <img src={Logo} alt="" className="h-10" />
+        <img
+          src={Logo}
+          alt="Cameron Stanley Web Development"
+          className="h-10"
+        />
         <div className="flex justify-between gap-4 items-center">
           <ul className="flex gap-2 font-semibold text-(--color-text)">
             <li>
