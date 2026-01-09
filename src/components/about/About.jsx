@@ -6,11 +6,11 @@ export default function About() {
       id="about"
       className="px-2 flex justify-center md:pt-12 bg-accent-gradient"
     >
-      <div className="flex flex-col items-center md:flex-row md:justify-between">
+      <div className="flex flex-col items-center md:flex-row md:justify-between md:gap-6 lg:gap-8">
         <img
           src={ProfileImg}
           alt="Cameron Stanley"
-          className="max-w-72 lg:max-w-full"
+          className="max-w-72 lg:max-w-96"
         />
         <div className="text-center md:text-left py-2 md:py-0 max-w-[400px]">
           <h2 className="text-3xl pb-2 font-medium lg:text-4xl">
