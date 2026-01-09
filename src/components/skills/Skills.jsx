@@ -13,12 +13,12 @@ export default function Skills() {
     >
       <h2 className="text-3xl font-medium pb-8 lg:text-4xl">Skills</h2>
       <div className="flex justify-center items-center flex-wrap gap-8 md:gap-12 lg:gap-16">
-        <FaHtml5 className="w-12 h-12" />
-        <FaCss3Alt className="w-12 h-12" />
-        <FaJs className="w-12 h-12" />
-        <FaReact className="w-12 h-12" />
-        <SiNextdotjs className="w-12 h-12" />
-        <FaWordpress className="w-12 h-12" />
+        <FaHtml5 className="w-12 h-12" aria-label="HTML5" />
+        <FaCss3Alt className="w-12 h-12" aria-label="CSS3" />
+        <FaJs className="w-12 h-12" aria-label="JavaScript" />
+        <FaReact className="w-12 h-12" aria-label="ReactJS" />
+        <SiNextdotjs className="w-12 h-12" aria-label="NextJS" />
+        <FaWordpress className="w-12 h-12" aria-label="WordPress" />
       </div>
     </section>
   );
