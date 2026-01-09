@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100">
+  <!-- Main Name -->
+  <text x="0" y="50" font-family="Montserrat, sans-serif" font-size="36" fill="#484538" font-weight="700">
+    Cameron Stanley
+  </text>
+  <!-- Tagline -->
+  <text x="0" y="80" font-family="Lato, sans-serif" font-size="16" fill="#56A3A6" letter-spacing="2">
+    Web Development
+  </text>
+</svg>

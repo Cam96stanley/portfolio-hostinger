@@ -1,1 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
+
+:root {
+  --color-accent: #56a3a6;
+  --color-text: #484538;
+  --color-bg-soft: #cad49d;
+  --color-bg-light: #d4eac8;
+  --color-bg-alt: #c0d8e0;
+}
+
+@layer components {
+  .draw-flow path {
+    stroke-dasharray: 1400;
+    stroke-dashoffset: 1400;
+    animation: flow 6s linear infinite;
+  }
+
+  .draw-flow path:nth-child(2) {
+    animation-delay: 1s;
+  }
+
+  .draw-flow path:nth-child(3) {
+    animation-delay: 2s;
+  }
+
+  @keyframes flow {
+    0% {
+      stroke-dashoffset: 1400;
+      opacity: 0.5;
+    }
+    75% {
+      stroke-dashoffset: 0;
+      opacity: 0.25;
+    }
+    100% {
+      stroke-dashoffset: 0;
+      opacity: 0;
+    }
+  }
+}
