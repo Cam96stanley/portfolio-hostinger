@@ -8,7 +8,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center max-w-md lg:max-w-2xl mx-auto p-4 z-10">
-        <h1 className="text-3xl lg:text-5xl">
+        <h1 className="text-2xl font-medium md:text-4xl lg:text-5xl">
           Create With Intention, <br /> Build With Purpose
         </h1>
         <p className="mt-4 text-sm lg:text-lg text-(--color-text)">
