@@ -1,11 +1,11 @@
 export default function HeroLines() {
   return (
-    <div className="relative overflow-hidden w-full h-96">
+    <div className="relative overflow-auto min-w-screen h-75">
       <svg
         viewBox="0 0 1200 300"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
-        className="absolute inset-0 w-[120%] top-0 draw-flow"
+        className="absolute top-0 left-0 min-w-screen h-50 draw-flow"
       >
         <path
           d="M0 90 C 400 200, 800 20, 1200 150"

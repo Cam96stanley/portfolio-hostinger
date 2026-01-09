@@ -4,9 +4,15 @@
 :root {
   --color-accent: #56a3a6;
   --color-text: #484538;
-  --color-bg-soft: #cad49d;
-  --color-bg-light: #d4eac8;
-  --color-bg-alt: #c0d8e0;
+  --color-soft: #cad49d;
+  --color-light: #d4eac8;
+  --color-alt: #c0d8e0;
+  --color-coral: #f07167;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-text);
 }
 
 @layer components {
