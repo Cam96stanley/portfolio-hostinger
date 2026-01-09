@@ -7,18 +7,22 @@ export default function Navbar() {
         <img
           src={Logo}
           alt="Cameron Stanley Web Development"
-          className="h-10"
+          className="h-10 hidden md:block"
         />
-        <div className="flex justify-between gap-4 items-center">
-          <ul className="flex gap-2 font-semibold text-(--color-text)">
+        <div className="flex justify-between gap-4 items-center w-full md:w-auto">
+          <ul className="flex gap-2 text-(--color-text) font-medium">
             <li>
-              <a href="#">Work</a>
+              <a className="hover:underline" href="#">
+                Work
+              </a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a className="hover:underline" href="#">
+                About
+              </a>
             </li>
           </ul>
-          <button className="bg-(--color-accent) py-1 px-3 rounded text-white">
+          <button className="bg-(--color-accent) py-1 px-3 rounded text-white cursor-pointer hover:bg-(--color-soft) hover:text-(--color-text) hover:shadow-lg hover:shadow-(--color-text)/50">
             Connect
           </button>
         </div>
