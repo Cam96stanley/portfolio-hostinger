@@ -10,7 +10,7 @@ export default function HeroLines() {
         <path
           d="M0 90 C 400 200, 800 20, 1200 150"
           fill="none"
-          stroke="#56A3A6"
+          stroke="var(--color-accent)"
           strokeWidth="2"
           strokeLinecap="round"
           opacity="0.35"
@@ -19,7 +19,7 @@ export default function HeroLines() {
         <path
           d="M0 150 C 350 60, 850 260, 1200 120"
           fill="none"
-          stroke="#56A3A6"
+          stroke="var(--color-accent)"
           strokeWidth="2"
           strokeLinecap="round"
           opacity="0.25"
@@ -28,7 +28,7 @@ export default function HeroLines() {
         <path
           d="M0 210 C 450 300, 750 80, 1200 200"
           fill="none"
-          stroke="#56A3A6"
+          stroke="var(--color-accent)"
           strokeWidth="2"
           strokeLinecap="round"
           opacity="0.18"
