@@ -1,7 +1,11 @@
+import Hero from "./components/hero/Hero";
+import Navbar from "./components/navbar/Navbar";
+
 function App() {
   return (
     <>
-      <p className="text-red-700">Hello World</p>
+      <Navbar />
+      <Hero />
     </>
   );
 }
