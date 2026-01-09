@@ -5,7 +5,7 @@ export default function HeroLines() {
         viewBox="0 0 1200 300"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
-        className="absolute top-0 left-0 w-full h-80 draw-flow"
+        className="absolute top-0 left-0 w-full h-full pointer-events-none draw-flow"
         preserveAspectRatio="none"
       >
         <path
