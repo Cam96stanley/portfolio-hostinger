@@ -2,12 +2,12 @@ import HeroLines from "./HeroLines";
 
 export default function Hero() {
   return (
-    <div className="relative flex justify-center items-center">
+    <section id="hero" className="relative flex justify-center items-center">
       {/* Background animated line waves */}
       <HeroLines />
 
       {/* Content */}
-      <div className="absolute flex flex-col justify-center items-center top-10 text-center max-w-150 mx-auto p-2">
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center max-w-md lg:max-w-2xl mx-auto p-4 z-10">
         <h1 className="text-3xl lg:text-5xl">
           Create With Intention, <br /> Build With Purpose
         </h1>
@@ -17,6 +17,6 @@ export default function Hero() {
           high-quality performance in every project.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
