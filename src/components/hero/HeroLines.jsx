@@ -6,7 +6,7 @@ export default function HeroLines() {
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
         className="absolute top-0 left-0 w-full h-full pointer-events-none draw-flow"
-        preserveAspectRatio="none"
+        preserveAspectRatio="xMidYMid slice"
       >
         <path
           d="M0 90 C 400 200, 800 20, 1200 150"
