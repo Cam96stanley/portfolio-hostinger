@@ -1,17 +1,18 @@
 export default function HeroLines() {
   return (
-    <div className="relative overflow-hidden w-screen h-75">
+    <div className="relative overflow-hidden w-full h-80">
       <svg
         viewBox="0 0 1200 300"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
-        className="absolute top-0 left-0 w-screen h-50 draw-flow"
+        className="absolute top-0 left-0 w-full h-80 draw-flow"
+        preserveAspectRatio="none"
       >
         <path
           d="M0 90 C 400 200, 800 20, 1200 150"
           fill="none"
           stroke="var(--color-accent)"
-          strokeWidth="2"
+          strokeWidth="1"
           strokeLinecap="round"
           opacity="0.35"
         />
@@ -20,7 +21,7 @@ export default function HeroLines() {
           d="M0 150 C 350 60, 850 260, 1200 120"
           fill="none"
           stroke="var(--color-accent)"
-          strokeWidth="2"
+          strokeWidth="1"
           strokeLinecap="round"
           opacity="0.25"
         />
@@ -29,7 +30,7 @@ export default function HeroLines() {
           d="M0 210 C 450 300, 750 80, 1200 200"
           fill="none"
           stroke="var(--color-accent)"
-          strokeWidth="2"
+          strokeWidth="1"
           strokeLinecap="round"
           opacity="0.18"
         />

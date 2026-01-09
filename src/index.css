@@ -19,7 +19,7 @@ body {
   .draw-flow path {
     stroke-dasharray: 1400;
     stroke-dashoffset: 1400;
-    animation: flow 6s linear infinite;
+    animation: flow 8s linear infinite;
   }
 
   .draw-flow path:nth-child(2) {
@@ -35,9 +35,9 @@ body {
       stroke-dashoffset: 1400;
       opacity: 0.5;
     }
-    75% {
+    50% {
       stroke-dashoffset: 0;
-      opacity: 0.25;
+      opacity: 0.15;
     }
     100% {
       stroke-dashoffset: 0;
