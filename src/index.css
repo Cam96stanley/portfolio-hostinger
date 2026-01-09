@@ -4,16 +4,22 @@
 :root {
   --color-accent: #56a3a6;
   --color-text: #484538;
-  --color-bg-soft: #cad49d;
-  --color-bg-light: #d4eac8;
-  --color-bg-alt: #c0d8e0;
+  --color-soft: #cad49d;
+  --color-light: #d4eac8;
+  --color-alt: #c0d8e0;
+  --color-coral: #f07167;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-text);
 }
 
 @layer components {
   .draw-flow path {
     stroke-dasharray: 1400;
     stroke-dashoffset: 1400;
-    animation: flow 6s linear infinite;
+    animation: flow 8s linear infinite;
   }
 
   .draw-flow path:nth-child(2) {
@@ -29,9 +35,9 @@
       stroke-dashoffset: 1400;
       opacity: 0.5;
     }
-    75% {
+    50% {
       stroke-dashoffset: 0;
-      opacity: 0.25;
+      opacity: 0.15;
     }
     100% {
       stroke-dashoffset: 0;
