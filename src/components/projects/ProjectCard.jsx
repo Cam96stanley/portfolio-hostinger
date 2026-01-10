@@ -7,6 +7,8 @@ export default function ProjectCard({ project }) {
         src={project.image}
         alt={project.title}
         className="rounded-3xl mx-auto"
+        loading="lazy"
+        decoding="async"
       />
       <h3 className="text-2xl font-medium pt-4">{project.title}</h3>
       <div className="flex gap-2 py-4">
@@ -18,10 +20,20 @@ export default function ProjectCard({ project }) {
       </div>
       <p className="h-[168px]">{project.description}</p>
       <div className="flex items-center gap-6">
-        <a className="px-2 py-1 border border-(--color-accent) rounded mt-4 cursor-pointer hover:shadow-xl">
+        <a
+          href={project.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-2 py-1 border border-(--color-accent) rounded mt-4 cursor-pointer hover:shadow-xl"
+        >
           View Site
         </a>
-        <a href="#" className="mt-4">
+        <a
+          href={project.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4"
+        >
           <FaGithub className="w-6 h-6 text-(--color-text) hover:text-(--color-accent)" />
         </a>
       </div>

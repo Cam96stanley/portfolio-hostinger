@@ -15,6 +15,8 @@ export const projects = [
     description:
       "A modern landing page demo designed to showcase an online learning platform. Focused on clear hierarchy, approachable visuals, and conversion-driven layout to highlight course offerings and guide users toward action.",
     image: skilledImage,
+    href: "https://skilled-elearn.netlify.app/",
+    github: "https://github.com/Cam96stanley/skilled-elearning-page",
   },
   {
     id: 2,
@@ -23,6 +25,8 @@ export const projects = [
     description:
       "A responsive landing page demo for a tech-focused book club, designed to highlight community, membership value, and clear user flow. Emphasizes strong typography, structured content sections, and conversion-driven calls to action.",
     image: bookClubImage,
+    href: "https://ultimate-tech-book-club.netlify.app/",
+    github: "https://github.com/Cam96stanley/tech-book-club",
   },
   {
     id: 3,
@@ -31,5 +35,7 @@ export const projects = [
     description:
       "An interactive product demo page showcasing a MacBook through 3D models and GSAP-driven animations. Designed to explore motion, depth, and timing while maintaining a clean, product-focused layout.",
     image: appleImage,
+    href: "#",
+    github: "https://github.com/Cam96stanley/gsap-macbook-landing",
   },
 ];
