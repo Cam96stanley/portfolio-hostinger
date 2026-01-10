@@ -25,6 +25,7 @@ export default function ProjectCard({ project }) {
           target="_blank"
           rel="noopener noreferrer"
           className="px-2 py-1 border border-(--color-accent) rounded mt-4 cursor-pointer hover:shadow-xl"
+          aria-label={`View ${project.title}`}
         >
           View Site
         </a>
@@ -33,6 +34,7 @@ export default function ProjectCard({ project }) {
           target="_blank"
           rel="noopener noreferrer"
           className="mt-4"
+          aria-label={`View ${project.title} on GitHub`}
         >
           <FaGithub className="w-6 h-6 text-(--color-text) hover:text-(--color-accent)" />
         </a>
