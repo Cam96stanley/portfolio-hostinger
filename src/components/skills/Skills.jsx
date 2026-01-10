@@ -4,6 +4,7 @@ import { FaJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { FaWordpress } from "react-icons/fa";
+import { TbBrandThreejs } from "react-icons/tb";
 
 export default function Skills() {
   return (
@@ -18,6 +19,7 @@ export default function Skills() {
         <FaJs className="w-12 h-12" aria-label="JavaScript" />
         <FaReact className="w-12 h-12" aria-label="ReactJS" />
         <SiNextdotjs className="w-12 h-12" aria-label="NextJS" />
+        <TbBrandThreejs className="w-12 h-12" aria-label="ThreeJS" />
         <FaWordpress className="w-12 h-12" aria-label="WordPress" />
       </div>
     </section>
