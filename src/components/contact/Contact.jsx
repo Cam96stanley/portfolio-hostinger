@@ -18,7 +18,12 @@ export default function Contact() {
             <MdOutlineEmail />
             <p className="font-bold">Email</p>
           </div>
-          <p>cam96stanley@gmail.com</p>
+          <a
+            href="mailto:cam96stanley@gmail.com"
+            className="hover:underline text-(--color-accent)"
+          >
+            cam96stanley@gmail.com
+          </a>
         </div>
         <div>
           <div className="flex items-center gap-2">
