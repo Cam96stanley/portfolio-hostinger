@@ -10,7 +10,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center py-12 md:py-16 bg-background-invert-gradient"
+      className="flex flex-col items-center pb-24 md:py-48 bg-background-invert-gradient"
     >
       <h2 className="text-3xl font-medium pb-8 lg:text-4xl">Skills</h2>
       <div className="flex justify-center items-center flex-wrap gap-8 md:gap-12 lg:gap-16">
