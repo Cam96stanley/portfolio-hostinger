@@ -12,12 +12,12 @@ export default function Navbar() {
         <div className="flex justify-between gap-4 items-center w-full md:w-auto">
           <ul className="flex gap-2 text-(--color-text) font-medium">
             <li>
-              <a className="hover:underline" href="#">
+              <a className="hover:underline" href="#projects">
                 Work
               </a>
             </li>
             <li>
-              <a className="hover:underline" href="#">
+              <a className="hover:underline" href="#about">
                 About
               </a>
             </li>

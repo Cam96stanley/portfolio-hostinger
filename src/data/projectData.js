@@ -35,7 +35,7 @@ export const projects = [
     description:
       "An interactive product demo page showcasing a MacBook through 3D models and GSAP-driven animations. Designed to explore motion, depth, and timing while maintaining a clean, product-focused layout.",
     image: appleImage,
-    href: "#",
+    href: "https://gsap-macbook-landing-beryl.vercel.app/",
     github: "https://github.com/Cam96stanley/gsap-macbook-landing",
   },
 ];
