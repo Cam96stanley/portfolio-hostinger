@@ -1,16 +1,16 @@
-import Logo from "../../assets/logo.svg";
+import { FaRegMoon } from "react-icons/fa";
+import { FaSun } from "react-icons/fa";
 
-export default function Navbar() {
+export default function Navbar({ darkMode, setDarkMode }) {
   return (
     <nav className="p-2 rounded-b-md shadow-md">
       <div className="flex justify-between items-center max-w-5xl mx-auto">
-        <img
-          src={Logo}
-          alt="Cameron Stanley Web Development"
-          className="h-16 hidden md:block"
-        />
+        <div className="hidden md:block">
+          <p className="font-bold text-lg">Cameron Stanley</p>
+          <p className="text-xs">Web Development</p>
+        </div>
         <div className="flex justify-between gap-4 items-center w-full md:w-auto">
-          <ul className="flex gap-4 text-(--color-text) font-medium md:mr-8">
+          <ul className="flex gap-4 text-(--color-text) font-medium md:mr-8 dark">
             <li>
               <a className="hover:underline" href="#projects">
                 Work
@@ -22,6 +22,16 @@ export default function Navbar() {
               </a>
             </li>
           </ul>
+          <button
+            className="cursor-pointer mr-8"
+            onClick={() => setDarkMode(!darkMode)}
+          >
+            {darkMode ? (
+              <FaSun className="w-6 h-6" />
+            ) : (
+              <FaRegMoon className="w-6 h-6" />
+            )}
+          </button>
           <button className="bg-(--color-accent) py-1 px-3 rounded text-white cursor-pointer hover:bg-(--color-soft) hover:text-(--color-text) hover:shadow-lg hover:shadow-(--color-text)/50">
             Connect
           </button>

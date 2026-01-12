@@ -61,3 +61,14 @@ body {
     rgba(86, 163, 166, 0) 100%
   );
 }
+
+/* Dark Mode Theme */
+
+body.dark {
+  background-color: var(--color-text);
+  color: var(--color-accent);
+}
+
+.dark {
+  color: var(--color-accent);
+}
