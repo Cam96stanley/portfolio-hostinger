@@ -7,10 +7,10 @@ export default function Navbar() {
         <img
           src={Logo}
           alt="Cameron Stanley Web Development"
-          className="h-10 hidden md:block"
+          className="h-16 hidden md:block"
         />
         <div className="flex justify-between gap-4 items-center w-full md:w-auto">
-          <ul className="flex gap-2 text-(--color-text) font-medium">
+          <ul className="flex gap-4 text-(--color-text) font-medium md:mr-8">
             <li>
               <a className="hover:underline" href="#projects">
                 Work
