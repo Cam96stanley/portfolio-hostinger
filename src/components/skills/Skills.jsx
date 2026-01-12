@@ -10,17 +10,44 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center py-24 md:py-48 bg-background-invert-gradient"
+      className="flex flex-col items-center pt-8 lg:w-[500px]"
     >
-      <h2 className="text-3xl font-medium pb-8 lg:text-4xl">Skills</h2>
-      <div className="flex justify-center items-center flex-wrap gap-8 md:gap-12 lg:gap-16">
-        <FaHtml5 className="w-12 h-12" aria-label="HTML5" />
-        <FaCss3Alt className="w-12 h-12" aria-label="CSS3" />
-        <FaJs className="w-12 h-12" aria-label="JavaScript" />
-        <FaReact className="w-12 h-12" aria-label="ReactJS" />
-        <SiNextdotjs className="w-12 h-12" aria-label="NextJS" />
-        <TbBrandThreejs className="w-12 h-12" aria-label="ThreeJS" />
-        <FaWordpress className="w-12 h-12" aria-label="WordPress" />
+      <div className="flex justify-center items-center flex-wrap gap-4 text-(--color-accent) lg:gap-10">
+        <FaHtml5
+          className="w-12 md:w-14 h-12 md:h-14"
+          aria-label="HTML5"
+          title="HTML"
+        />
+        <FaCss3Alt
+          className="w-12 md:w-14 h-12 md:h-14"
+          aria-label="CSS3"
+          title="CSS"
+        />
+        <FaJs
+          className="w-12 h-12"
+          aria-label="JavaScript"
+          title="JavaScript"
+        />
+        <FaReact
+          className="w-12 md:w-14 h-12 md:h-14"
+          aria-label="ReactJS"
+          title="ReactJS"
+        />
+        <SiNextdotjs
+          className="w-12 md:w-14 h-12 md:h-14"
+          aria-label="NextJS"
+          title="NextJS"
+        />
+        <TbBrandThreejs
+          className="w-12 md:w-14 h-12 md:h-14"
+          aria-label="ThreeJS"
+          title="ThreeJS"
+        />
+        <FaWordpress
+          className="w-12 md:w-14 h-12 md:h-14"
+          aria-label="WordPress"
+          title="WordPress"
+        />
       </div>
     </section>
   );

@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function ProjectCard({ project }) {
   return (
-    <div className="py-8 md:py-4 px-4 shadow-2xl rounded-2xl w-[325px]">
+    <div className="py-8 md:py-4 px-4 shadow-2xl rounded-2xl w-81.25 bg-white">
       <img
         src={project.image}
         alt={project.title}
