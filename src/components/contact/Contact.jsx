@@ -1,5 +1,7 @@
 import { MdOutlineEmail } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
+import { CiLinkedin } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
 import map from "../../assets/map.jpg";
 
 export default function Contact() {
@@ -31,6 +33,24 @@ export default function Contact() {
             <p className="font-bold">Location</p>
           </div>
           <p>Charleston SC, USA</p>
+        </div>
+        <div className="flex gap-2 mt-4">
+          <a
+            href="https://www.linkedin.com/in/cameron-stanley-007908339/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-transform transform hover:scale-110 hover:text-(--color-accent)"
+          >
+            <CiLinkedin size={32} aria-label="Linkedin" />
+          </a>
+          <a
+            href="https://github.com/Cam96stanley"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-transform transform hover:scale-110 hover:text-(--color-accent)"
+          >
+            <FaGithub size={32} aria-label="GitHub" />
+          </a>
         </div>
       </div>
       <div className="hidden md:block">

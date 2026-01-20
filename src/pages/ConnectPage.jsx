@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function ConnectPage() {
   const [formData, setFormData] = useState({
@@ -41,6 +43,7 @@ Message: ${formData.body}
 
       if (res.ok) {
         setFormData({ name: "", email: "", body: "" });
+        toast.success("Your Request has been submitted!");
       } else {
         console.error("Failed to send message");
       }
@@ -96,6 +99,7 @@ Message: ${formData.body}
           Submit
         </button>
       </form>
+      <ToastContainer />
     </section>
   );
 }
