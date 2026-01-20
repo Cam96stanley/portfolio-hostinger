@@ -1,10 +1,9 @@
 import Navbar from "./components/navbar/Navbar";
-import Hero from "./components/hero/Hero";
-import About from "./components/about/About";
-import Projects from "./components/projects/Projects";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
+import AboutPage from "./pages/AboutPage";
+import HomePage from "./pages/HomePage";
+import ConnectPage from "./pages/ConnectPage";
 import { useEffect, useState } from "react";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -22,14 +21,16 @@ function App() {
   }, [darkMode]);
 
   return (
-    <>
-      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </>
+    <Routes>
+      <Route
+        path="/"
+        element={<Navbar darkMode={darkMode} setDarkMode={setDarkMode} />}
+      >
+        <Route index element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/connect" element={<ConnectPage />} />
+      </Route>
+    </Routes>
   );
 }
 
