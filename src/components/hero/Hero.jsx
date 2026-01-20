@@ -11,7 +11,7 @@ export default function Hero() {
         <h1 className="text-2xl font-medium md:text-4xl lg:text-5xl">
           Create With Intention, <br /> Build With Purpose
         </h1>
-        <p className="mt-4 text-sm lg:text-lg text-(--color-text)">
+        <p className="mt-4 text-sm lg:text-lg text-(--color-text) dark:text-(--color-accent)">
           Creating websites that are both modern and purposeful, where every
           detail enhances the user experience. Thoughtful design meets reliable,
           high-quality performance in every project.

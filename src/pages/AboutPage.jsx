@@ -1,8 +1,8 @@
 export default function AboutPage() {
   return (
-    <section className="p-2">
+    <section className="max-w-[500px] mx-auto my-10">
       <h1 className="text-4xl my-2">About Me</h1>
-      <p className="my-4">
+      <p className="my-4 ">
         Hi, I'm Cameron! I’m a former medical professional who swapped needles
         and vacutainers for a keyboard and monitor. I loved being part of the
         process of taking a sick patient and helping them get healthy again.

@@ -1,11 +1,11 @@
 export default function ConnectPage() {
   return (
-    <section className="p-2">
+    <section className="max-w-[500px] mx-auto flex flex-col items-center mt-10">
       <h1 className="my-2 text-3xl">Connect With Me</h1>
-      <p className="my-2">
+      <p className="my-2 max-w-75 text-center">
         Have a project you've been thinking about? I'd love to hear about it!
       </p>
-      <form className="flex flex-col gap-4 mt-10 max-w-75">
+      <form className=" px-2 flex flex-col gap-4 mt-10 w-full min-w-[300px] max-w-[500px]">
         <label htmlFor="name">Name</label>
         <input
           id="name"

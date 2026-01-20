@@ -14,12 +14,18 @@ export default function Navbar({ darkMode, setDarkMode }) {
           <div className="flex justify-between gap-4 items-center w-full md:w-auto">
             <ul className="flex gap-4 text-(--color-text) font-medium md:mr-8 dark">
               <li>
-                <Link className="hover:underline" to="/">
+                <Link
+                  className="hover:underline dark:text-(--color-accent)"
+                  to="/"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link className="hover:underline" to="/about">
+                <Link
+                  className="hover:underline dark:text-(--color-accent)"
+                  to="/about"
+                >
                   About
                 </Link>
               </li>
