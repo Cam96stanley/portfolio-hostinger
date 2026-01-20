@@ -3,20 +3,22 @@ import { FaCss3Alt } from "react-icons/fa6";
 import { FaJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { TbBrandThreejs } from "react-icons/tb";
-import skilledImage from "../assets/skilled.png";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { IoLogoFirebase } from "react-icons/io5";
+import invoiceImage from "../assets/invoice.png";
 import bookClubImage from "../assets/book-club.png";
 import appleImage from "../assets/apple.png";
 
 export const projects = [
   {
     id: 1,
-    title: "Skilled",
-    tech: [FaHtml5, FaCss3Alt],
+    title: "Invoice App",
+    tech: [FaReact, RiTailwindCssFill, IoLogoFirebase],
     description:
-      "A modern landing page demo designed to showcase an online learning platform. Focused on clear hierarchy, approachable visuals, and conversion-driven layout to highlight course offerings and guide users toward action.",
-    image: skilledImage,
-    href: "https://skilled-elearn.netlify.app/",
-    github: "https://github.com/Cam96stanley/skilled-elearning-page",
+      "An invoice app I am finishing building where users can create an account, login and create, update, and delete invoices. Features to come: exporting invoice via PDF and automated email to client.",
+    image: invoiceImage,
+    href: "#",
+    github: "https://github.com/Cam96stanley/firebase-invoice",
   },
   {
     id: 2,
