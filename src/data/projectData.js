@@ -3,7 +3,7 @@ import { FaCss3Alt } from "react-icons/fa6";
 import { FaJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { TbBrandThreejs } from "react-icons/tb";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { FaSass } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import invoiceImage from "../assets/invoice.png";
 import bookClubImage from "../assets/book-club.png";
@@ -13,11 +13,11 @@ export const projects = [
   {
     id: 1,
     title: "Invoice App",
-    tech: [FaReact, RiTailwindCssFill, IoLogoFirebase],
+    tech: [FaReact, FaSass, IoLogoFirebase],
     description:
-      "An invoice app I am finishing building where users can create an account, login and create, update, and delete invoices. Features to come: exporting invoice via PDF and automated email to client.",
+      "An invoice management application built with Firebase Authentication and Firestore that allows users to securely create accounts and manage invoices. Designed to be extensible, with planned features including PDF generation and email-based invoice delivery.",
     image: invoiceImage,
-    href: "#",
+    href: "https://firebase-invoice-4m7a.vercel.app/",
     github: "https://github.com/Cam96stanley/firebase-invoice",
   },
   {
